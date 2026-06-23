@@ -36,6 +36,8 @@ body,
 body {
   overflow-x: hidden;
   background: var(--background);
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 button,
@@ -245,9 +247,9 @@ h2,
   position: sticky;
   top: 0;
   height: 76px;
-  padding: 0 max(20px, calc((100vw - 720px) / 2 + 20px));
+  padding: 0 32px;
   display: grid;
-  grid-template-columns: 54px 1fr auto;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 16px;
   border-bottom: 1px solid rgba(249, 198, 88, 0.16);
@@ -256,10 +258,22 @@ h2,
 }
 
 .step-wordmark {
-  justify-self: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-self: auto;
+  pointer-events: none;
+}
+
+.step-actions {
+  grid-column: 3;
+  justify-self: end;
+  margin-left: auto;
 }
 
 .icon-button {
+  grid-column: 1;
+  justify-self: start;
   width: 44px;
   height: 44px;
   display: inline-grid;
@@ -811,8 +825,8 @@ footer {
 
 .deck-fan {
   position: relative;
-  width: min(100%, 1280px);
-  height: 650px;
+  width: min(100%, 1180px);
+  height: 640px;
   margin: 20px auto 0;
   overflow: visible;
 }
@@ -820,7 +834,7 @@ footer {
 .deck-card {
   position: absolute;
   z-index: var(--fan-z);
-  left: var(--fan-left);
+  left: clamp(43px, var(--fan-left), calc(100% - 43px));
   top: var(--fan-top);
   width: clamp(62px, 5.7vw, 86px);
   aspect-ratio: 2 / 3;
@@ -985,14 +999,15 @@ footer {
 
 .spread {
   margin: 34px auto 36px;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
   gap: 18px;
-  align-items: start;
-  justify-items: center;
+  align-items: flex-start;
 }
 
 .spread-1 {
-  width: min(100%, 180px);
+  width: min(100%, var(--result-card-width, 180px));
   --result-card-width: 180px;
 }
 
@@ -1033,6 +1048,17 @@ footer {
   margin-top: 12px;
   color: var(--primary-2);
   font-weight: 800;
+  line-height: 1.28;
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+.result-card-hint {
+  margin: -20px auto 30px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .reading-box {
@@ -1055,6 +1081,8 @@ footer {
 .reading-box p {
   margin-top: 12px;
   line-height: 1.75;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .reading-list {
@@ -1076,6 +1104,7 @@ footer {
 
 .reading-list h3 {
   font-size: 17px;
+  word-break: keep-all;
 }
 
 .reading-list span {
@@ -1088,6 +1117,8 @@ footer {
 .reading-list p {
   margin-top: 8px;
   line-height: 1.65;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .language-modal-backdrop {
@@ -1180,15 +1211,25 @@ footer {
   }
 
   .deck-fan {
-    width: 1080px;
-    height: 600px;
-    margin-left: 50%;
-    transform: translateX(-50%) scale(0.82);
+    width: min(100vw - 20px, 760px);
+    height: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none;
     transform-origin: top center;
   }
 
-  .spread {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+@media (min-width: 641px) and (max-width: 1100px) {
+  .deck-fan {
+    width: min(100vw - 32px, 900px);
+    height: 720px;
+  }
+
+  .deck-card {
+    width: 60px;
+    left: clamp(34px, var(--fan-left), calc(100% - 34px));
   }
 }
 
@@ -1224,8 +1265,8 @@ footer {
   }
 
   .carousel {
-    height: 260px;
-    transform: scale(0.78);
+    height: 300px;
+    transform: scale(0.9);
     transform-origin: center;
   }
 
@@ -1242,15 +1283,40 @@ footer {
   }
 
   .deck-fan {
-    transform: translateX(-50%) scale(0.64);
+    width: min(100vw - 20px, 430px);
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none;
+  }
+
+  .deck-card {
+    left: clamp(36px, var(--fan-left), calc(100% - 36px));
+    width: 64px;
   }
 
   .spread {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    width: min(100%, 360px);
+    flex-wrap: wrap;
+    gap: 22px 14px;
+  }
+
+  .spread-1,
+  .spread-3,
+  .spread-5 {
+    --result-card-width: 210px;
+  }
+
+  .spread-1 {
+    width: min(100%, 210px);
   }
 
   .spread-card:hover .tarot-card {
     transform: scale(1.32);
+  }
+
+  .spread-card span {
+    font-size: 18px;
   }
 
   .language-options {

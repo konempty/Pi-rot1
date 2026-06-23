@@ -36,11 +36,29 @@ type FlowState = {
 const STORAGE_KEY = 'pirot-react-flow'
 const MOCK_BALANCE = 128.5
 const initialFlow: FlowState = { categoryId: null, paid: false, selectedCards: [] }
-const SELECT_FAN_ROWS = 4
-const SELECT_FAN_ROW_BASE_TOPS = [0, 116, 246, 390]
-const SELECT_FAN_ROW_WIDTHS = [72, 84, 96, 104]
-const SELECT_FAN_THETA = 32
-const SELECT_FAN_DEPTH = 72
+const SELECT_FAN_CONFIGS = {
+  desktop: {
+    rows: 4,
+    baseTops: [0, 130, 260, 390],
+    width: 78,
+    theta: 28,
+    depth: 58,
+  },
+  tablet: {
+    rows: 6,
+    baseTops: [0, 108, 216, 324, 432, 540],
+    width: 76,
+    theta: 25,
+    depth: 44,
+  },
+  mobile: {
+    rows: 6,
+    baseTops: [0, 96, 192, 288, 384, 480],
+    width: 78,
+    theta: 26,
+    depth: 42,
+  },
+} as const
 
 function isLanguage(value: string | null): value is Language {
   return LANGUAGES.some((item) => item.code === value)
@@ -85,6 +103,18 @@ function shuffleDeck() {
     ;[deck[index], deck[swap]] = [deck[swap], deck[index]]
   }
   return deck
+}
+
+function useViewportWidth() {
+  const [width, setWidth] = useState(() => (typeof window === 'undefined' ? 1200 : window.innerWidth))
+  useEffect(() => {
+    function update() {
+      setWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', update)
+    return () => window.removeEventListener('resize', update)
+  }, [])
+  return width
 }
 
 export default function App() {
@@ -341,6 +371,7 @@ function SelectScreen({ language, t, onLanguageChange, categoryId, paid, onBack,
   const category = getCategory(categoryId)
   const [deck, setDeck] = useState<number[]>([])
   const [picked, setPicked] = useState<number[]>([])
+  const viewportWidth = useViewportWidth()
   useEffect(() => {
     if (!category || !paid) {
       onBack()
@@ -351,7 +382,8 @@ function SelectScreen({ language, t, onLanguageChange, categoryId, paid, onBack,
   if (!category) return null
   const remaining = category.count - picked.length
   const isFull = remaining === 0
-  const fanRowSize = Math.ceil(deck.length / SELECT_FAN_ROWS)
+  const fanConfig = viewportWidth <= 640 ? SELECT_FAN_CONFIGS.mobile : viewportWidth <= 1100 ? SELECT_FAN_CONFIGS.tablet : SELECT_FAN_CONFIGS.desktop
+  const fanRowSize = Math.ceil(deck.length / fanConfig.rows)
   function toggle(position: number) {
     setPicked((current) => {
       if (current.includes(position)) return current.filter((item) => item !== position)
@@ -378,13 +410,13 @@ function SelectScreen({ language, t, onLanguageChange, categoryId, paid, onBack,
             const rowCount = Math.min(fanRowSize, deck.length - rowStart)
             const column = position - rowStart
             const progress = rowCount <= 1 ? 0.5 : column / (rowCount - 1)
-            const width = SELECT_FAN_ROW_WIDTHS[row] ?? 100
-            const theta = (SELECT_FAN_THETA * Math.PI) / 180
+            const width = fanConfig.width
+            const theta = (fanConfig.theta * Math.PI) / 180
             const angle = -theta + progress * theta * 2
-            const rowBaseTop = SELECT_FAN_ROW_BASE_TOPS[row] ?? row * 140
+            const rowBaseTop = fanConfig.baseTops[row] ?? row * 110
             const rowLeft = 50 + (Math.sin(angle) / Math.sin(theta)) * (width / 2)
             const curveProgress = (1 - Math.cos(angle)) / (1 - Math.cos(theta))
-            const rowTop = rowBaseTop + curveProgress * SELECT_FAN_DEPTH
+            const rowTop = rowBaseTop + curveProgress * fanConfig.depth
             const style = {
               '--fan-left': `${rowLeft}%`,
               '--fan-top': `${rowTop}px`,
@@ -462,7 +494,7 @@ function ResultScreen({ language, t, onLanguageChange, flow, onHome, onRestart }
           <span className="eyebrow"><Sparkles size={14} />{categoryText.name} {t.result.badgeSuffix}</span>
           <h1>{t.result.title}</h1>
         </div>
-        <div className={`spread spread-${columns}`} style={{ gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))` }}>
+        <div className={`spread spread-${columns}`}>
           {reading.cards.map((item, index) => (
             <div className="spread-card" key={`${item.card.id}-${index}`}>
               <TarotCard card={item.card} faceUp />
@@ -470,6 +502,7 @@ function ResultScreen({ language, t, onLanguageChange, flow, onHome, onRestart }
             </div>
           ))}
         </div>
+        <p className="result-card-hint">{t.result.cardHint}</p>
         <section className="reading-box accent"><h2><Quote size={16} />{t.result.summary}</h2><p>{reading.summary}</p></section>
         <section className="reading-list">
           {reading.cards.map((item, index) => (
