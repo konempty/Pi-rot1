@@ -1,0 +1,16 @@
+Use case: illustration-story
+Asset type: 1024x1536 tarot inner illustration source art, later cropped into the fixed card art slot
+Primary request: Cups story 09 inner fulfillment in deep night: the lavender-haired seer reaches the hidden moonwell and smiles before nine neatly arranged filled cups, Pi-emblem dessert coin shining softly, private wish fulfilled before returning to others.
+Card identity for scene only: Nine of Cups
+Style/medium: high-quality kawaii fantasy, polished anime-inspired tarot illustration, youthful premium mobile tarot service mood, soft cinematic lighting, clean readable silhouettes, rich detail
+Scene/backdrop: match the card scene; fantasy environment with depth, atmosphere, and polished detail
+Subject: tarot archetype or suit-story character described in the primary request
+Composition/framing: vertical inner illustration only, centered and readable, important faces and symbols away from the edges, generous safe margin
+Color palette: deep purple, lavender, warm gold, cream highlights, with suit-specific accent colors
+Materials/textures: polished gold coins and jewelry, soft cloth, glowing magic, painterly anime detail
+Suit story continuity: One continuous Ace-through-Ten water-and-heart story. A lavender-haired seer discovers a golden cup spring, learns trust and community, suffers emotional loss, recovers through memory and discernment, leaves shallow comfort to find the true source, then returns that water to a chosen-family festival. Court cards can stand outside this plot and should prioritize their traditional meanings.
+Subtle alchemical element: Water element should feel natural and not excessive: streams, fountains, reflections, droplets, mist, moonlit pools, soft wave shapes, and emotional flow woven into the scene.
+Text (verbatim): none. No English words, no Korean, no card titles, no rank labels, no numbers, no watermark, no signature. Decorative pi-emblem medallions are allowed.
+Pi emblem accuracy: Whenever a coin, pendant, medallion, charm, seal, or emblem shows a Pi-inspired mark, use the saved Pi Network icon reference. Make a clear lowercase pi emblem with a mostly straight horizontal top bar, two vertical stems connected to the bar, two small square dots above the bar, and a short squared upward hook at the far right end. The right hook should be a crisp raised corner, not a round inflated balloon or bulb. The mark must be angular and glyph-like, not a pig nose, not two round nostrils, not two rounded parallel rods, not the Roman numeral II, not the number 2, not a horseshoe, and not a generic omega shape.
+Constraints: inner illustration only; no tarot card frame, no border, no nameplate, no UI, no poster layout. Preserve classic tarot symbolism while making it Pi-inspired through purple-gold coins, charms, seals, and square sparkles.
+Avoid: full tarot card, card frame, border, nameplate, caption, typography, English text, Korean text, rank text, number text, watermark, logo wordmark, blurry emblem, pig-nose symbol, two round nostrils, Roman numeral II, number 2, malformed pi mark, bulbous balloon-shaped pi hook, rounded swollen pi right stroke, extra fingers, distorted face, low resolution

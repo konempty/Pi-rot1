@@ -1,0 +1,13 @@
+Create a single PNG illustration at exactly 817x1014 pixels, portrait orientation.
+
+This is NOT a full tarot card. Inner illustration only for 0. The Fool, designed to fit inside a Pi-inspired tarot card art slot with no cropping.
+
+Scene: a luminous mountain path at sunrise. A youthful adventurer steps forward with joyful curiosity, small white companion dog beside them, distant lake, pastel clouds, flowered cliff path, a few floating golden coin charms.
+
+Subject details: deep violet-black hair, hopeful expressive face, elegant purple cloak with gold trim, small travel bundle tied to a staff. Include a few subtle Pi-inspired coin charms with a correct Pi Network-like symbol: pi shape with two small square-ish dots above, the right vertical stem slightly higher; never pig-nose, never Roman numeral II, never two rounded sticks.
+
+Style: premium polished anime fantasy tarot illustration, high-detail painterly rendering, cute but refined, luxury purple and gold, cohesive with a high-end kawaii fantasy tarot deck.
+
+Composition: exact 817:1014 ratio, full subject and dog visible, important content kept within safe margins, comfortable top and bottom padding, no tarot border, no card frame, no nameplate, no text, no letters, no numbers, no watermark.
+
+Avoid: malformed Pi symbols, extra limbs, distorted anatomy, cropped character, excessive gold dots, horror mood, empty margins.

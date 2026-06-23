@@ -1,0 +1,417 @@
+{
+  "title": "Pi Tarot imagegen prompt bible",
+  "purpose": "Project-bound prompts for generating inner illustrations only, then compositing them into the fixed Pi Tarot template.",
+  "common_prompt_rules": {
+    "asset_type": "1024x1536 tarot inner illustration source art, later cropped into the fixed card art slot",
+    "style": "high-quality kawaii fantasy, polished anime-inspired tarot illustration, youthful premium mobile tarot service mood, soft cinematic lighting, clean readable silhouettes, rich detail",
+    "palette": "deep purple, lavender, warm gold, cream highlights, with suit-specific accent colors",
+    "composition": "vertical portrait composition, centered main subject, enough safe margin around important details, no card frame, no border, no nameplate",
+    "text_policy": "No English words, no Korean, no card titles, no rank labels, no numbers, no watermark, no signature. Decorative pi-emblem medallions are allowed.",
+    "pi_symbol_guardrail": "Whenever a coin, pendant, medallion, charm, seal, or emblem shows a Pi-inspired mark, use the saved Pi Network icon reference. Make a clear lowercase pi emblem with a mostly straight horizontal top bar, two vertical stems connected to the bar, two small square dots above the bar, and a short squared upward hook at the far right end. The right hook should be a crisp raised corner, not a round inflated balloon or bulb. The mark must be angular and glyph-like, not a pig nose, not two round nostrils, not two rounded parallel rods, not the Roman numeral II, not the number 2, not a horseshoe, and not a generic omega shape.",
+    "negative_prompt": "full tarot card, card frame, border, nameplate, caption, typography, English text, Korean text, rank text, number text, watermark, logo wordmark, blurry emblem, pig-nose symbol, two round nostrils, Roman numeral II, number 2, malformed pi mark, bulbous balloon-shaped pi hook, rounded swollen pi right stroke, extra fingers, distorted face, low resolution"
+  },
+  "minor_arcana_story_rules": {
+    "wands": "One continuous fire-and-initiative journey. A young purple-cloaked maker discovers a living wand spark at dawn, builds momentum with friends through a bright day, faces rivalry and pressure near sunset, then becomes a mature leader of a glowing creative guild by night.",
+    "cups": "One continuous Ace-through-Ten water-and-heart story. A lavender-haired seer discovers a golden cup spring, learns trust and community, suffers emotional loss, recovers through memory and discernment, leaves shallow comfort to find the true source, then returns that water to a chosen-family festival. Court cards can stand outside this plot and should prioritize their traditional meanings.",
+    "swords": "One continuous Ace-through-Ten air-and-clarity story. A silver-haired sky-temple student awakens to truth, faces a difficult choice, learns that sharp truth can wound, rests and recovers, loses friends through hollow victory, leaves for calmer air, uses strategy, confronts self-imposed restriction and anxiety, then releases an old identity at pre-dawn. Court cards can stand outside this plot and should prioritize their traditional meanings.",
+    "pentacles": "One continuous Ace-through-Ten earth-and-value story. An auburn-haired young merchant-gardener receives a single Pi coin seed, learns to balance resources, builds value with collaborators, clings too tightly to early success, passes through hardship, restores fairness through generosity, waits for planted value to grow, masters craft through repetition, enjoys earned independence, then turns prosperity into lasting multi-generation city legacy. Court cards can stand outside this plot and should prioritize their traditional meanings."
+  },
+  "minor_arcana_element_rules": {
+    "wands": "Fire element should feel natural and not excessive: warm rim light, ember motes, safe wand sparks, sunset glow, creative heat, and small flame-like accents woven into the action.",
+    "cups": "Water element should feel natural and not excessive: streams, fountains, reflections, droplets, mist, moonlit pools, soft wave shapes, and emotional flow woven into the scene.",
+    "swords": "Air element should feel natural and not excessive: wind ribbons, clouds, open sky, feathers, drifting petals, light blades, clear atmosphere, and motion lines woven into the scene.",
+    "pentacles": "Earth element should feel natural and not excessive: soil, gardens, roots, stone, market produce, minerals, harvest light, and grounded textures woven into the scene."
+  },
+  "cards": [
+    {
+      "filename": "00_major_00_the-fool.png",
+      "name": "The Fool",
+      "prompt": "A cheerful young traveler in a purple cloak steps along a cliffside path at sunrise with a small white companion, carrying a starry bundle on a wand, golden Pi-emblem charms floating in the air, mountains and a bright new horizon behind them."
+    },
+    {
+      "filename": "01_major_01_the-magician.png",
+      "name": "The Magician",
+      "prompt": "A young kawaii magician at a crescent worktable channels violet-gold light between one raised wand and one lowered hand, surrounded by four symbolic tools: wand, cup, sword, and Pi-emblem coin, with tiny square sparkles forming a precise pi-like aura."
+    },
+    {
+      "filename": "02_major_02_the-high-priestess.png",
+      "name": "The High Priestess",
+      "prompt": "A serene priestess in lavender robes sits between two moonlit pillars before a starry veil, holding a glowing scroll with no readable writing, a gold Pi-emblem crescent medallion at her chest, pomegranates and water reflections around her."
+    },
+    {
+      "filename": "03_major_03_the-empress.png",
+      "name": "The Empress",
+      "prompt": "A warm empress rests in a lush violet garden of flowers and wheat, crowned with stars, holding a small gold Pi-emblem coin like a seed of abundance, soft rabbits and butterflies nearby, sunset gold filtering through leaves."
+    },
+    {
+      "filename": "04_major_04_the-emperor.png",
+      "name": "The Emperor",
+      "prompt": "A confident young emperor on a carved stone throne with ram motifs, purple mantle and gold armor, holding a scepter and a Pi-emblem shield, mountains behind him, structured palace geometry and warm disciplined light."
+    },
+    {
+      "filename": "05_major_05_the-hierophant.png",
+      "name": "The Hierophant",
+      "prompt": "A kind teacher-sage in ornate purple and cream robes sits inside a golden temple, blessing two apprentices, holding a staff topped with a clear Pi-inspired emblem, candles, keys, and soft stained-glass light, no readable inscriptions."
+    },
+    {
+      "filename": "06_major_06_the-lovers.png",
+      "name": "The Lovers",
+      "prompt": "Two youthful figures meet in a blooming magical garden beneath a radiant angelic presence, a single gold Pi-emblem coin charm glowing between their hands as a choice, purple roses, sunlight, and balanced twin trees."
+    },
+    {
+      "filename": "07_major_07_the-chariot.png",
+      "name": "The Chariot",
+      "prompt": "A determined hero drives a moon-and-star chariot drawn by two contrasting sphinx-like fantasy guardians, violet armor with gold Pi-emblem chest medallion, city gates behind, forward motion, victory ribbons, bright dramatic sky."
+    },
+    {
+      "filename": "08_major_08_strength.png",
+      "name": "Strength",
+      "prompt": "A gentle young guardian calmly befriends a golden lion in a flower field, infinity-like light above the head, purple sash, Pi-emblem pendant shining softly, mood of patience and courage, warm afternoon glow."
+    },
+    {
+      "filename": "09_major_09_the-hermit.png",
+      "name": "The Hermit",
+      "prompt": "A small wise wanderer in a deep purple hood stands on a snowy peak at night, raising a lantern that contains a tiny sharp Pi-emblem coin star, quiet mountains, soft falling snow, introspective gold-violet light."
+    },
+    {
+      "filename": "10_major_10_wheel-of-fortune.png",
+      "name": "Wheel of Fortune",
+      "prompt": "A grand golden wheel turns in a violet sky with cute mystical guardians around it, the center holds a crisp Pi-inspired medallion, ribbons of seasons and stars spiral around, sense of cycles and lucky motion, no letters or numbers."
+    },
+    {
+      "filename": "11_major_11_justice.png",
+      "name": "Justice",
+      "prompt": "A poised judge in purple robes holds balanced scales and a shining sword, a clear Pi-emblem coin rests on one scale while a feather rests on the other, marble hall, symmetrical composition, calm fair golden light."
+    },
+    {
+      "filename": "12_major_12_the-hanged-man.png",
+      "name": "The Hanged Man",
+      "prompt": "A peaceful youth hangs upside down by one foot from a living golden-violet tree, halo of Pi-emblem sparkles around the head, serene smile, suspended perspective above a quiet pond, sacrifice and new viewpoint without distress."
+    },
+    {
+      "filename": "13_major_13_death.png",
+      "name": "Death",
+      "prompt": "A graceful white spirit knight on a white horse passes through a fading field at pale dawn, carrying a torn black-violet banner with an abstract gold Pi-emblem seal. Keep the elegant white knight concept, but make Death clearer through subtle non-graphic symbols: a stylized skull motif on the armor, a fallen crown near the path, a small hourglass, bare winter branches, drifting ash petals, wilted flowers giving way to one new white blossom, and a distant sunrise of transformation. Solemn, beautiful, not horror."
+    },
+    {
+      "filename": "14_major_14_temperance.png",
+      "name": "Temperance",
+      "prompt": "A winged alchemist pours glowing water between two cups beside a stream, one foot on land and one in water, purple and gold robes, Pi-emblem halo gem, balanced rainbow light and gentle kawaii fantasy serenity."
+    },
+    {
+      "filename": "15_major_15_the-devil.png",
+      "name": "The Devil",
+      "prompt": "A playful shadow trickster with small horns sits in a violet crystal cave, two cute figures notice loose golden chains and can step away, Pi-emblem coin temptations sparkle nearby, mischievous but not frightening, rich purple-gold contrast."
+    },
+    {
+      "filename": "16_major_16_the-tower.png",
+      "name": "The Tower",
+      "prompt": "A tall violet-gold tower struck by lightning releases glowing Pi-emblem coins and star fragments into a stormy sky, tiny figures safely floating on magical ribbons, dramatic sudden change, dynamic composition, no text."
+    },
+    {
+      "filename": "17_major_17_the-star.png",
+      "name": "The Star",
+      "prompt": "A hopeful star maiden kneels by clear water, pouring light from two vessels under a huge eight-point star, tiny gold Pi-emblem sparkles reflected in the pool, lavender night sky, healing and renewal."
+    },
+    {
+      "filename": "18_major_18_the-moon.png",
+      "name": "The Moon",
+      "prompt": "A dreamy moonlit path runs between two towers toward distant mountains, a cute wolf and dog watch a glowing Pi-emblem moon charm rising from water, lavender mist, hidden intuition, surreal but gentle."
+    },
+    {
+      "filename": "19_major_19_the-sun.png",
+      "name": "The Sun",
+      "prompt": "A joyful child rides a small white pony through sunflowers beneath a radiant golden sun, purple banner, Pi-emblem coin garland shining clearly, bright innocent happiness, warm clean anime fantasy light."
+    },
+    {
+      "filename": "20_major_20_judgement.png",
+      "name": "Judgement",
+      "prompt": "An angel blows a golden trumpet over awakening figures rising from violet clouds and flowers, a crisp Pi-inspired emblem glows on the trumpet banner, sunrise beams, renewal and calling, uplifting rather than severe."
+    },
+    {
+      "filename": "21_major_21_the-world.png",
+      "name": "The World",
+      "prompt": "A joyful dancing figure floats inside a complete laurel wreath above a luminous miniature world globe with visible oceans, continents, tiny cities, mountains, rivers, and stars connected by golden orbit lines. Four cute elemental guardians watch from the corners, and four small realms around the wreath show earth, water, air, and fire in harmony. A gold Pi-emblem medallion glows at the heart, celebration of completion, whole-world unity, balanced circular composition."
+    },
+    {
+      "filename": "22_wands_ace.png",
+      "name": "Ace of Wands",
+      "prompt": "Wands story 01 at dawn: the same dark violet-black-haired young maker seen in later Wands cards, wearing a deep purple star-lined cloak and gold Pi-emblem chest medallion, discovers exactly one living wand sprouting violet leaves and golden fire from a floating Pi-emblem spark in an empty guild workshop valley. Youthful beginning, curious energy, clear first step toward the later guild leader."
+    },
+    {
+      "filename": "23_wands_two.png",
+      "name": "Two of Wands",
+      "prompt": "Wands story 02 in early morning: the same dark violet-black-haired young maker in the deep purple star-lined cloak stands on a guild balcony with exactly two glowing wands as planning beacons, studying a tiny golden world orb and one large Pi-emblem compass. Match the face, hair color, cloak, and determined tone of Wands 5-10, but show an earlier strategic planning moment before leaving the valley. The compass should contain the only clearly readable Pi icon, copied from the saved Pi Network reference: straight top bar, two square dots, two vertical stems, and a short squared upward hook on the far right, not a round balloon bulge."
+    },
+    {
+      "filename": "24_wands_three.png",
+      "name": "Three of Wands",
+      "prompt": "Wands story 03 in mid-morning: the same dark violet-black-haired maker stands on a cliff in the deep purple cloak beside exactly three wand beacons, sending glowing message sparks toward distant airships and a violet sea route. A single larger Pi-emblem route medallion hangs near the foreground while other charms remain abstract gold squares, so the icon stays clean. The readable Pi mark must follow the saved Pi Network reference: straight top bar, two square dots, two vertical stems, and a short squared upward hook on the far right, not a round balloon bulge."
+    },
+    {
+      "filename": "25_wands_four.png",
+      "name": "Four of Wands",
+      "prompt": "Wands story 04 near noon: the same dark violet-black-haired maker and close friends raise exactly four flower-wrapped wands into the first small guild beacon gate, with one central golden Pi-emblem lantern hanging from ribbons and smaller decorations kept abstract. Keep community joy, but match Wands 5-10 with a deeper purple cloak, guild-city setting, warmer leadership tone, and a clear transition into the upcoming friendly rivalry. The central lantern icon must follow the saved Pi Network reference: straight top bar, two square dots, two vertical stems, and a short squared upward hook on the far right, not a round balloon bulge."
+    },
+    {
+      "filename": "26_wands_five.png",
+      "name": "Five of Wands",
+      "prompt": "Wands story 05 in bright afternoon: the same dark violet-black-haired maker and four young guild rivals hold exactly five training wands in a friendly contest inside the guild courtyard, sparks flying safely in a dynamic but elegant composition. Upgrade the image quality to match the painterly, professional fantasy-oil-illustration feel of the revised Four of Wands and the grand Six of Wands: rich lighting, refined faces, detailed cloaks, dramatic diagonal wand crossing, energetic rivalry and creative friction without looking like a rough animation still. Use one clean Pi-emblem badge on the protagonist only, following the saved Pi Network reference with a straight top bar, two square dots, two vertical stems, and a short squared upward hook, not a round balloon bulge."
+    },
+    {
+      "filename": "27_wands_six.png",
+      "name": "Six of Wands",
+      "prompt": "Wands story 06 in golden afternoon: the same purple-haired maker returns through town holding a raised wand, friends cheer with six banners, Pi-emblem medals gleam, victory parade feeling, warm sunlight and confetti."
+    },
+    {
+      "filename": "28_wands_seven.png",
+      "name": "Seven of Wands",
+      "prompt": "Wands story 07 at late afternoon: the maker stands on a hill defending the beacon with one bright wand against six rising challenge wands below, determined expression, Pi-emblem shield glow."
+    },
+    {
+      "filename": "29_wands_eight.png",
+      "name": "Eight of Wands",
+      "prompt": "Wands story 08 at sunset: the purple-haired maker stands in the foreground launching exactly eight blazing wands across the sky like fast messages over fields, each trailing tiny square gold sparks and Pi-emblem coin seals, swift progress and movement."
+    },
+    {
+      "filename": "30_wands_nine.png",
+      "name": "Nine of Wands",
+      "prompt": "Wands story 09 at dusk: tired but brave, the purple-haired maker guards exactly nine planted wands arranged as three left, three center, and three right around the repaired beacon, bandaged arm, purple cloak dusty, Pi-emblem lantern still burning, resilience after struggle."
+    },
+    {
+      "filename": "31_wands_ten.png",
+      "name": "Ten of Wands",
+      "prompt": "Wands story 10 at heavy twilight: the purple-haired maker stands before the glowing guild hall and raises a Pi-emblem lantern while exactly ten glowing wands are planted into a grand circular beacon gate around him, dignified responsibility and leadership effort without looking defeated."
+    },
+    {
+      "filename": "32_wands_page.png",
+      "name": "Page of Wands",
+      "prompt": "Wands story 11 at first starlight: a purple-haired young apprentice from the maker's guild studies a small sprouting wand left by the maker, wide-eyed curiosity, Pi-emblem badge freshly earned, desert flowers and purple evening sky, visually matching the Wands protagonist lineage."
+    },
+    {
+      "filename": "33_wands_knight.png",
+      "name": "Knight of Wands",
+      "prompt": "Wands story 12 at nightfall: the apprentice-now-knight rides a swift magical foxlike fire mount across dunes holding a flaming wand, Pi-emblem saddle charm, bold momentum and adventure."
+    },
+    {
+      "filename": "34_wands_queen.png",
+      "name": "Queen of Wands",
+      "prompt": "Wands story 13 under a warm night sky: a charismatic queen sits among sunflowers and black cats, holding a blooming wand, Pi-emblem crown jewel, confident creative warmth, guild lights glowing behind."
+    },
+    {
+      "filename": "35_wands_king.png",
+      "name": "King of Wands",
+      "prompt": "Wands story 14 at midnight celebration: the mature maker is now a visionary king before a city of wand beacons, holding a dragon-carved wand, crisp Pi-emblem medallion on the throne, mastered creative fire."
+    },
+    {
+      "filename": "36_cups_ace.png",
+      "name": "Ace of Cups",
+      "prompt": "Cups story 01 beginning at spring morning: a gentle lavender-haired seer in a pearl-lavender cloak discovers a magical golden cup overflowing at a hidden fountain, Pi-emblem droplet shining above it, lilies and doves, first emotional awakening."
+    },
+    {
+      "filename": "37_cups_two.png",
+      "name": "Two of Cups",
+      "prompt": "Cups story 02 bond later that spring morning: the same lavender-haired seer shares the fountain water in two glowing cups with one trusted friend beside a stream, a small Pi-emblem charm floating between them, mutual trust beginning among soft blossoms."
+    },
+    {
+      "filename": "38_cups_three.png",
+      "name": "Three of Cups",
+      "prompt": "Cups story 03 community at midday: the lavender-haired seer and two companions bring the spring water to the village river, three friends raising three cups in celebration, flower crowns and lavender ribbons, Pi-emblem cup charms sparkling, friendship becoming shared joy."
+    },
+    {
+      "filename": "39_cups_four.png",
+      "name": "Four of Cups",
+      "prompt": "Cups story 04 pause in quiet afternoon after the celebration: the lavender-haired seer sits beneath a willow with three cups nearby while a fourth cup forms from mist above the stream, Pi-emblem reflection on the water, contemplation and emotional stillness before trouble."
+    },
+    {
+      "filename": "40_cups_five.png",
+      "name": "Five of Cups",
+      "prompt": "Cups story 05 loss during rainy late afternoon: a storm breaks the mood near the village bridge, the lavender-haired seer mourns three spilled cups while two cups still glow behind, Pi-emblem droplets in puddles, grief with hope remaining."
+    },
+    {
+      "filename": "41_cups_six.png",
+      "name": "Six of Cups",
+      "prompt": "Cups story 06 memory after the rain: children and old memories help the lavender-haired seer refill six flower-filled cups in a village garden, six cups arranged like restored memories, Pi-emblem coin tucked into one bouquet, nostalgia and kindness healing the thread."
+    },
+    {
+      "filename": "42_cups_seven.png",
+      "name": "Seven of Cups",
+      "prompt": "Cups story 07 temptation at misty sunset: seven floating cups rise from a mirror pool showing dreamy visions in violet mist, the lavender-haired seer reaches carefully toward the cup with a clear Pi-emblem star, choosing reality over seductive illusions."
+    },
+    {
+      "filename": "43_cups_eight.png",
+      "name": "Eight of Cups",
+      "prompt": "Cups story 08 departure at moonrise: the lavender-haired seer leaves eight cups arranged at the lakeshore and walks toward the mountain spring, carrying only a small Pi-emblem lantern, voluntary departure and deeper search for the true source."
+    },
+    {
+      "filename": "44_cups_nine.png",
+      "name": "Nine of Cups",
+      "prompt": "Cups story 09 inner fulfillment in deep night: the lavender-haired seer reaches the hidden moonwell and smiles before nine neatly arranged filled cups, Pi-emblem dessert coin shining softly, private wish fulfilled before returning to others."
+    },
+    {
+      "filename": "45_cups_ten.png",
+      "name": "Ten of Cups",
+      "prompt": "Cups story 10 shared harmony at sunrise: the lavender-haired seer returns the true source water to a restored river festival, ten cups arc like a rainbow over a happy chosen family and community, Pi-emblem lanterns reflected in water, belonging and shared joy."
+    },
+    {
+      "filename": "46_cups_page.png",
+      "name": "Page of Cups",
+      "prompt": "Cups court Page archetype near a lavender harbor: a curious young page discovers a tiny magical fish peeking from a cup, the fish carrying a Pi-emblem bubble, playful intuition and emotional surprise."
+    },
+    {
+      "filename": "47_cups_knight.png",
+      "name": "Knight of Cups",
+      "prompt": "Cups court Knight archetype along a moonlit shore: a romantic knight rides a gentle seahorse-like mount, offering a glowing cup with a Pi-emblem jewel, calm devotion and sincere creative quest."
+    },
+    {
+      "filename": "48_cups_queen.png",
+      "name": "Queen of Cups",
+      "prompt": "Cups court Queen archetype at pale dawn: a compassionate queen sits by the sea holding an ornate closed cup, Pi-emblem pearl on the lid, protected intuition, ocean mist, and soft emotional wisdom."
+    },
+    {
+      "filename": "49_cups_king.png",
+      "name": "King of Cups",
+      "prompt": "Cups court King archetype at sunrise over open water: a calm king sits on a floating throne, cup and scepter balanced, crisp Pi-emblem medallion at the heart, mastery of emotion and community peace."
+    },
+    {
+      "filename": "50_swords_ace.png",
+      "name": "Ace of Swords",
+      "prompt": "Swords story 01 awakening in early mist: a single bright sword rises from a cloud above a sky temple, crowned by a gold Pi-emblem wreath, a silver-haired student in a pale blue-violet cloak watches truth awaken for the first time."
+    },
+    {
+      "filename": "51_swords_two.png",
+      "name": "Two of Swords",
+      "prompt": "Swords story 02 choice at cool dawn: the same silver-haired sky-temple student sits blindfolded at the temple gate holding exactly two separate straight swords in a compact X-shaped crossed pose directly in front of the chest. The two swords must be unmistakably separate: two distinct hilts at the lower left and lower right, two distinct blade tips at the upper left and upper right, a visible overlap point where the blades cross, and no other swords or blades anywhere. Pi-emblem charm on the blindfold knot, torn between loyalty and truth."
+    },
+    {
+      "filename": "52_swords_three.png",
+      "name": "Three of Swords",
+      "prompt": "Swords story 03 consequence during morning rain: exactly three swords pierce a floating crystal heart above the temple courtyard, Pi-emblem raindrops glimmer, the silver-haired student realizes that truth and words can wound, beautiful but gentle."
+    },
+    {
+      "filename": "53_swords_four.png",
+      "name": "Four of Swords",
+      "prompt": "Swords story 04 recovery after rain: the silver-haired student rests in a quiet sky-temple sanctuary beneath exactly four suspended swords, hands folded around a tiny Pi-emblem token, recovery, meditation and still air."
+    },
+    {
+      "filename": "54_swords_five.png",
+      "name": "Five of Swords",
+      "prompt": "Swords story 05 hollow victory in windy afternoon: after a training dispute, the silver-haired student holds two swords while exactly three swords lie on the ground, classmates walk away, Pi-emblem badge dimmed, victory feels empty."
+    },
+    {
+      "filename": "55_swords_six.png",
+      "name": "Six of Swords",
+      "prompt": "Swords story 06 transition in late afternoon fog: the silver-haired student leaves the sky temple by small sky boat with exactly six upright swords, moving toward calmer shores, guided by a Pi-emblem lantern at the bow, transition and healing."
+    },
+    {
+      "filename": "56_swords_seven.png",
+      "name": "Seven of Swords",
+      "prompt": "Swords story 07 strategy at sunset: the silver-haired student calmly arranges exactly seven practice swords in a sky-temple strategy courtyard as a tactical lesson, not stealing. Show five swords planted in a neat wind-lit semicircle around a glowing map and exactly two swords laid crossed beside a Pi-emblem compass; exactly seven swords total, no extra blades. Analytical cleverness, planning, consequences, no sneaking and no shadow camp."
+    },
+    {
+      "filename": "57_swords_eight.png",
+      "name": "Eight of Swords",
+      "prompt": "Swords story 08 restriction at purple dusk: the silver-haired student stands loosely bound among exactly eight swords, blindfolded but able to step free, Pi-emblem light on the open path, self-imposed mental restriction and possible escape."
+    },
+    {
+      "filename": "58_swords_nine.png",
+      "name": "Nine of Swords",
+      "prompt": "Swords story 09 anxiety at deep night: the silver-haired student wakes in bed beneath exactly nine shadowy thought-blades on the wall, holding a small Pi-emblem charm for comfort, facing fear rather than running."
+    },
+    {
+      "filename": "59_swords_ten.png",
+      "name": "Ten of Swords",
+      "prompt": "Swords story 10 release at darkest pre-dawn: exactly ten swords are laid around the silver-haired student's fallen cloak rather than through a body, sunrise begins beyond the storm, Pi-emblem token glowing, ending of an old identity and release, not graphic."
+    },
+    {
+      "filename": "60_swords_page.png",
+      "name": "Page of Swords",
+      "prompt": "Swords court Page archetype in fresh dawn wind: an alert young page stands on a hill holding one sword upright, Pi-emblem badge bright, clouds clearing, honest curiosity and mental agility."
+    },
+    {
+      "filename": "61_swords_knight.png",
+      "name": "Knight of Swords",
+      "prompt": "Swords court Knight archetype in brisk morning: a knight charges through wind on a swift cloud-steed, sword forward, Pi-emblem pennant snapping, decisive action and intellectual momentum."
+    },
+    {
+      "filename": "62_swords_queen.png",
+      "name": "Queen of Swords",
+      "prompt": "Swords court Queen archetype at clear noon: a sharp but kind queen sits on a sky throne with butterflies and clouds, sword raised, Pi-emblem crown jewel precise, honesty, boundaries and clear wisdom."
+    },
+    {
+      "filename": "63_swords_king.png",
+      "name": "King of Swords",
+      "prompt": "Swords court King archetype under a clear high sky: a wise king of the sky temple holds a straight sword and Pi-emblem seal, fair judgment, mastered clarity, ethical authority."
+    },
+    {
+      "filename": "64_pentacles_ace.png",
+      "name": "Ace of Pentacles",
+      "prompt": "Pentacles story 01 seed in spring morning: an auburn-haired young merchant-gardener in an emerald-and-purple cloak receives one large gold Pi-emblem coin seed from a garden cloud above fertile soil, new material opportunity beginning."
+    },
+    {
+      "filename": "65_pentacles_two.png",
+      "name": "Two of Pentacles",
+      "prompt": "Pentacles story 02 balance in breezy spring: the same auburn-haired merchant-gardener balances exactly two Pi-emblem gold coins between market boats and seed trays, connected by an infinity ribbon, learning early resource flow."
+    },
+    {
+      "filename": "66_pentacles_three.png",
+      "name": "Three of Pentacles",
+      "prompt": "Pentacles story 03 collaboration in late spring: the auburn-haired merchant-gardener works with an artisan and architect in a tiny workshop, exactly three Pi-emblem gold coins set into a blueprint-like arch with no readable text, skill becoming shared structure."
+    },
+    {
+      "filename": "67_pentacles_four.png",
+      "name": "Four of Pentacles",
+      "prompt": "Pentacles story 04 clinging at early summer: after first profit, the auburn-haired merchant-gardener sits protectively in the market with exactly four Pi-emblem gold coins, one at chest, one under feet, two beside shoulders, security becoming fear."
+    },
+    {
+      "filename": "68_pentacles_five.png",
+      "name": "Five of Pentacles",
+      "prompt": "Pentacles story 05 hardship during summer rain: the auburn-haired merchant-gardener and a friend walk past a glowing market window containing exactly five Pi-emblem coin lights, feeling left out but supported together, scarcity without despair."
+    },
+    {
+      "filename": "69_pentacles_six.png",
+      "name": "Six of Pentacles",
+      "prompt": "Pentacles story 06 fair exchange after rain: the auburn-haired merchant-gardener shares exactly six Pi-emblem gold coins with neighbors while holding balanced scales in a warm market square, generosity, fair exchange and mutual aid."
+    },
+    {
+      "filename": "70_pentacles_seven.png",
+      "name": "Seven of Pentacles",
+      "prompt": "Pentacles story 07 patience in midsummer afternoon: the auburn-haired merchant-gardener pauses in a garden where exactly seven Pi-emblem coin fruits grow on vines, leaning on a tool, patiently evaluating long work."
+    },
+    {
+      "filename": "71_pentacles_eight.png",
+      "name": "Eight of Pentacles",
+      "prompt": "Pentacles story 08 mastery in late summer workshop: the auburn-haired merchant-gardener carefully engraves exactly eight gold coins, each with the same clear Pi-emblem, tools and purple cloth, craftsmanship and repetition."
+    },
+    {
+      "filename": "72_pentacles_nine.png",
+      "name": "Nine of Pentacles",
+      "prompt": "Pentacles story 09 earned grace in early autumn: the auburn-haired merchant-gardener enjoys a refined vineyard garden with exactly nine Pi-emblem coin fruits on golden vines, a small elegant bird companion, self-sufficiency and earned grace."
+    },
+    {
+      "filename": "73_pentacles_ten.png",
+      "name": "Ten of Pentacles",
+      "prompt": "Pentacles story 10 legacy at autumn festival: exactly ten Pi-emblem gold coins form an arch over a multi-generation community market city, children, elders, pets, purple banners, family legacy and lasting shared prosperity."
+    },
+    {
+      "filename": "74_pentacles_page.png",
+      "name": "Page of Pentacles",
+      "prompt": "Pentacles court Page archetype in late autumn morning: a young page studies a single Pi-emblem gold coin seed in an open field, eager practical learning, fallen leaves and soft golden light."
+    },
+    {
+      "filename": "75_pentacles_knight.png",
+      "name": "Knight of Pentacles",
+      "prompt": "Pentacles court Knight archetype in harvest dusk: a patient knight on a sturdy horse holds one Pi-emblem coin above plowed fields, careful steady progress, reliability, purple saddle cloth and earthy gold tones."
+    },
+    {
+      "filename": "76_pentacles_queen.png",
+      "name": "Queen of Pentacles",
+      "prompt": "Pentacles court Queen archetype in winter greenhouse: a nurturing queen holds a large Pi-emblem coin like a warm hearth, plants and small animals around her, practical care, embodied abundance through stewardship."
+    },
+    {
+      "filename": "77_pentacles_king.png",
+      "name": "King of Pentacles",
+      "prompt": "Pentacles court King archetype in early spring return: a generous king on a vine-carved throne overlooks a thriving garden-market city, holding one large crisp Pi-emblem gold coin seal, mature prosperity, grounded mastery and material leadership."
+    }
+  ]
+}

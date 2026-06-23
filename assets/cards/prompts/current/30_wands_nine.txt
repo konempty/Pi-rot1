@@ -1,0 +1,21 @@
+Use case: illustration-story
+Asset type: 1024x1536 tarot inner illustration source art, later cropped into the fixed card art slot
+Style/medium: high-quality kawaii fantasy, polished anime-inspired tarot illustration, youthful premium mobile tarot service mood, soft cinematic lighting, clean readable silhouettes, rich detail
+Composition/framing: vertical inner illustration only, centered and readable, important faces and symbols away from the edges, generous safe margin
+Color palette: deep purple, lavender, warm gold, cream highlights, with suit-specific accent colors
+Materials/textures: polished gold coins and jewelry, soft cloth, glowing magic, painterly anime detail
+Text (verbatim): none. No English words, no Korean, no card titles, no rank labels, no numbers, no watermark, no signature. Decorative pi-emblem medallions are allowed.
+Pi emblem accuracy: Whenever a coin, pendant, medallion, charm, seal, or emblem shows a Pi-inspired mark, use the saved Pi Network icon reference. Make a clear lowercase pi emblem with a mostly straight horizontal top bar, two vertical stems connected to the bar, two small square dots above the bar, and a short squared upward hook at the far right end. The right hook should be a crisp raised corner, not a round inflated balloon or bulb. The mark must be angular and glyph-like, not a pig nose, not two round nostrils, not two rounded parallel rods, not the Roman numeral II, not the number 2, not a horseshoe, and not a generic omega shape.
+Global constraints: inner illustration only; no tarot card frame, no border, no nameplate, no UI, no poster layout. Preserve classic tarot symbolism while making it Pi-inspired through purple-gold coins, charms, seals, and square sparkles.
+Global avoid: full tarot card, card frame, border, nameplate, caption, typography, English text, Korean text, rank text, number text, watermark, logo wordmark, blurry emblem, pig-nose symbol, two round nostrils, Roman numeral II, number 2, malformed pi mark, bulbous balloon-shaped pi hook, rounded swollen pi right stroke, extra fingers, distorted face, low resolution
+
+Suit prompt: Wands
+Suit story continuity: One continuous fire-and-initiative journey. A young male purple-cloaked maker discovers a living wand spark at dawn, builds momentum with friends through a bright day, faces rivalry and pressure near sunset, then becomes a mature leader of a glowing creative guild by night.
+Protagonist continuity: For Ace through Ten, keep the main Wands protagonist male, dark violet-black-haired, wearing a deep purple guild cloak, and visually continuous unless the arcana prompt explicitly says otherwise.
+Subtle alchemical element: Fire element should feel natural and not excessive: warm rim light, ember motes, safe wand sparks, sunset glow, creative heat, sunlight glow where appropriate, and small flame-like accents woven into the action.
+Suit visual language: guild-city architecture, warm gold light, purple banners, creative tools, wand sparks, refined fantasy-oil polish, and leadership growth. Countable wands must be exact when the arcana rank requires a number.
+Court card direction: Page, Knight, Queen, and King may stand outside the Ace-through-Ten plot; prioritize the court role's traditional meaning, personality, and fire element while keeping visual harmony with the suit.
+
+Primary request: Wands story 09 at dusk: tired but brave, the purple-haired maker guards exactly nine planted wands arranged as three left, three center, and three right around the repaired beacon, bandaged arm, purple cloak dusty, Pi-emblem lantern still burning, resilience after struggle.
+Card identity for scene only: Nine of Wands
+Arcana-specific element note: Fire element should feel natural and not excessive: warm rim light, ember motes, safe wand sparks, sunset glow, creative heat, and small flame-like accents woven into the action.

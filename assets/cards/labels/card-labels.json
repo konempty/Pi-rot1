@@ -1,0 +1,316 @@
+{
+  "labels": [
+    {
+      "filename": "00_major_00_the-fool.png",
+      "label": "0. The Fool"
+    },
+    {
+      "filename": "01_major_01_the-magician.png",
+      "label": "I. The Magician"
+    },
+    {
+      "filename": "02_major_02_the-high-priestess.png",
+      "label": "II. The High Priestess"
+    },
+    {
+      "filename": "03_major_03_the-empress.png",
+      "label": "III. The Empress"
+    },
+    {
+      "filename": "04_major_04_the-emperor.png",
+      "label": "IV. The Emperor"
+    },
+    {
+      "filename": "05_major_05_the-hierophant.png",
+      "label": "V. The Hierophant"
+    },
+    {
+      "filename": "06_major_06_the-lovers.png",
+      "label": "VI. The Lovers"
+    },
+    {
+      "filename": "07_major_07_the-chariot.png",
+      "label": "VII. The Chariot"
+    },
+    {
+      "filename": "08_major_08_strength.png",
+      "label": "VIII. Strength"
+    },
+    {
+      "filename": "09_major_09_the-hermit.png",
+      "label": "IX. The Hermit"
+    },
+    {
+      "filename": "10_major_10_wheel-of-fortune.png",
+      "label": "X. Wheel of Fortune"
+    },
+    {
+      "filename": "11_major_11_justice.png",
+      "label": "XI. Justice"
+    },
+    {
+      "filename": "12_major_12_the-hanged-man.png",
+      "label": "XII. The Hanged Man"
+    },
+    {
+      "filename": "13_major_13_death.png",
+      "label": "XIII. Death"
+    },
+    {
+      "filename": "14_major_14_temperance.png",
+      "label": "XIV. Temperance"
+    },
+    {
+      "filename": "15_major_15_the-devil.png",
+      "label": "XV. The Devil"
+    },
+    {
+      "filename": "16_major_16_the-tower.png",
+      "label": "XVI. The Tower"
+    },
+    {
+      "filename": "17_major_17_the-star.png",
+      "label": "XVII. The Star"
+    },
+    {
+      "filename": "18_major_18_the-moon.png",
+      "label": "XVIII. The Moon"
+    },
+    {
+      "filename": "19_major_19_the-sun.png",
+      "label": "XIX. The Sun"
+    },
+    {
+      "filename": "20_major_20_judgement.png",
+      "label": "XX. Judgement"
+    },
+    {
+      "filename": "21_major_21_the-world.png",
+      "label": "XXI. The World"
+    },
+    {
+      "filename": "22_wands_ace.png",
+      "label": "I. Ace of Wands"
+    },
+    {
+      "filename": "23_wands_two.png",
+      "label": "II. Two of Wands"
+    },
+    {
+      "filename": "24_wands_three.png",
+      "label": "III. Three of Wands"
+    },
+    {
+      "filename": "25_wands_four.png",
+      "label": "IV. Four of Wands"
+    },
+    {
+      "filename": "26_wands_five.png",
+      "label": "V. Five of Wands"
+    },
+    {
+      "filename": "27_wands_six.png",
+      "label": "VI. Six of Wands"
+    },
+    {
+      "filename": "28_wands_seven.png",
+      "label": "VII. Seven of Wands"
+    },
+    {
+      "filename": "29_wands_eight.png",
+      "label": "VIII. Eight of Wands"
+    },
+    {
+      "filename": "30_wands_nine.png",
+      "label": "IX. Nine of Wands"
+    },
+    {
+      "filename": "31_wands_ten.png",
+      "label": "X. Ten of Wands"
+    },
+    {
+      "filename": "32_wands_page.png",
+      "label": "XI. Page of Wands"
+    },
+    {
+      "filename": "33_wands_knight.png",
+      "label": "XII. Knight of Wands"
+    },
+    {
+      "filename": "34_wands_queen.png",
+      "label": "XIII. Queen of Wands"
+    },
+    {
+      "filename": "35_wands_king.png",
+      "label": "XIV. King of Wands"
+    },
+    {
+      "filename": "36_cups_ace.png",
+      "label": "I. Ace of Cups"
+    },
+    {
+      "filename": "37_cups_two.png",
+      "label": "II. Two of Cups"
+    },
+    {
+      "filename": "38_cups_three.png",
+      "label": "III. Three of Cups"
+    },
+    {
+      "filename": "39_cups_four.png",
+      "label": "IV. Four of Cups"
+    },
+    {
+      "filename": "40_cups_five.png",
+      "label": "V. Five of Cups"
+    },
+    {
+      "filename": "41_cups_six.png",
+      "label": "VI. Six of Cups"
+    },
+    {
+      "filename": "42_cups_seven.png",
+      "label": "VII. Seven of Cups"
+    },
+    {
+      "filename": "43_cups_eight.png",
+      "label": "VIII. Eight of Cups"
+    },
+    {
+      "filename": "44_cups_nine.png",
+      "label": "IX. Nine of Cups"
+    },
+    {
+      "filename": "45_cups_ten.png",
+      "label": "X. Ten of Cups"
+    },
+    {
+      "filename": "46_cups_page.png",
+      "label": "XI. Page of Cups"
+    },
+    {
+      "filename": "47_cups_knight.png",
+      "label": "XII. Knight of Cups"
+    },
+    {
+      "filename": "48_cups_queen.png",
+      "label": "XIII. Queen of Cups"
+    },
+    {
+      "filename": "49_cups_king.png",
+      "label": "XIV. King of Cups"
+    },
+    {
+      "filename": "50_swords_ace.png",
+      "label": "I. Ace of Swords"
+    },
+    {
+      "filename": "51_swords_two.png",
+      "label": "II. Two of Swords"
+    },
+    {
+      "filename": "52_swords_three.png",
+      "label": "III. Three of Swords"
+    },
+    {
+      "filename": "53_swords_four.png",
+      "label": "IV. Four of Swords"
+    },
+    {
+      "filename": "54_swords_five.png",
+      "label": "V. Five of Swords"
+    },
+    {
+      "filename": "55_swords_six.png",
+      "label": "VI. Six of Swords"
+    },
+    {
+      "filename": "56_swords_seven.png",
+      "label": "VII. Seven of Swords"
+    },
+    {
+      "filename": "57_swords_eight.png",
+      "label": "VIII. Eight of Swords"
+    },
+    {
+      "filename": "58_swords_nine.png",
+      "label": "IX. Nine of Swords"
+    },
+    {
+      "filename": "59_swords_ten.png",
+      "label": "X. Ten of Swords"
+    },
+    {
+      "filename": "60_swords_page.png",
+      "label": "XI. Page of Swords"
+    },
+    {
+      "filename": "61_swords_knight.png",
+      "label": "XII. Knight of Swords"
+    },
+    {
+      "filename": "62_swords_queen.png",
+      "label": "XIII. Queen of Swords"
+    },
+    {
+      "filename": "63_swords_king.png",
+      "label": "XIV. King of Swords"
+    },
+    {
+      "filename": "64_pentacles_ace.png",
+      "label": "I. Ace of Pentacles"
+    },
+    {
+      "filename": "65_pentacles_two.png",
+      "label": "II. Two of Pentacles"
+    },
+    {
+      "filename": "66_pentacles_three.png",
+      "label": "III. Three of Pentacles"
+    },
+    {
+      "filename": "67_pentacles_four.png",
+      "label": "IV. Four of Pentacles"
+    },
+    {
+      "filename": "68_pentacles_five.png",
+      "label": "V. Five of Pentacles"
+    },
+    {
+      "filename": "69_pentacles_six.png",
+      "label": "VI. Six of Pentacles"
+    },
+    {
+      "filename": "70_pentacles_seven.png",
+      "label": "VII. Seven of Pentacles"
+    },
+    {
+      "filename": "71_pentacles_eight.png",
+      "label": "VIII. Eight of Pentacles"
+    },
+    {
+      "filename": "72_pentacles_nine.png",
+      "label": "IX. Nine of Pentacles"
+    },
+    {
+      "filename": "73_pentacles_ten.png",
+      "label": "X. Ten of Pentacles"
+    },
+    {
+      "filename": "74_pentacles_page.png",
+      "label": "XI. Page of Pentacles"
+    },
+    {
+      "filename": "75_pentacles_knight.png",
+      "label": "XII. Knight of Pentacles"
+    },
+    {
+      "filename": "76_pentacles_queen.png",
+      "label": "XIII. Queen of Pentacles"
+    },
+    {
+      "filename": "77_pentacles_king.png",
+      "label": "XIV. King of Pentacles"
+    }
+  ]
+}

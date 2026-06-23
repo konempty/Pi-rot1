@@ -1,0 +1,4 @@
+interface:
+  display_name: "PI Tarot Card Pipeline"
+  short_description: "Regenerate, review, render, label, and validate PI tarot cards."
+  default_prompt: "Regenerate the requested PI tarot card image, review it, render the no-text card, add the nameplate text, and validate the final outputs."

@@ -1,0 +1,20 @@
+Use case: illustration-story
+Asset type: 1024x1536 tarot inner illustration source art, later cropped into the fixed card art slot
+Style/medium: high-quality kawaii fantasy, polished anime-inspired tarot illustration, youthful premium mobile tarot service mood, soft cinematic lighting, clean readable silhouettes, rich detail
+Composition/framing: vertical inner illustration only, centered and readable, important faces and symbols away from the edges, generous safe margin
+Color palette: deep purple, lavender, warm gold, cream highlights, with suit-specific accent colors
+Materials/textures: polished gold coins and jewelry, soft cloth, glowing magic, painterly anime detail
+Text (verbatim): none. No English words, no Korean, no card titles, no rank labels, no numbers, no watermark, no signature. Decorative pi-emblem medallions are allowed.
+Pi emblem accuracy: Whenever a coin, pendant, medallion, charm, seal, or emblem shows a Pi-inspired mark, use the saved Pi Network icon reference. Make a clear lowercase pi emblem with a mostly straight horizontal top bar, two vertical stems connected to the bar, two small square dots above the bar, and a short squared upward hook at the far right end. The right hook should be a crisp raised corner, not a round inflated balloon or bulb. The mark must be angular and glyph-like, not a pig nose, not two round nostrils, not two rounded parallel rods, not the Roman numeral II, not the number 2, not a horseshoe, and not a generic omega shape.
+Global constraints: inner illustration only; no tarot card frame, no border, no nameplate, no UI, no poster layout. Preserve classic tarot symbolism while making it Pi-inspired through purple-gold coins, charms, seals, and square sparkles.
+Global avoid: full tarot card, card frame, border, nameplate, caption, typography, English text, Korean text, rank text, number text, watermark, logo wordmark, blurry emblem, pig-nose symbol, two round nostrils, Roman numeral II, number 2, malformed pi mark, bulbous balloon-shaped pi hook, rounded swollen pi right stroke, extra fingers, distorted face, low resolution
+
+Suit prompt: Pentacles
+Suit story continuity: One continuous Ace-through-Ten earth-and-value story. An auburn-haired young merchant-gardener receives a single Pi coin seed, learns to balance resources, builds value with collaborators, clings too tightly to early success, passes through hardship, restores fairness through generosity, waits for planted value to grow, masters craft through repetition, enjoys earned independence, then turns prosperity into lasting multi-generation city legacy. Court cards can stand outside this plot and should prioritize their traditional meanings.
+Protagonist continuity: For Ace through Ten, keep the Pentacles protagonist auburn-haired with merchant-gardener styling, grounded posture, and practical earth-gold palette unless the arcana prompt explicitly says otherwise.
+Subtle alchemical element: Earth element should feel natural and not excessive: soil, gardens, roots, stone, market produce, minerals, harvest light, and grounded textures woven into the scene.
+Suit visual language: Pi coin seeds, gardens, stone markets, craft tables, harvest light, rooted architecture, prosperity earned through work, and grounded gold-green accents. Countable pentacles/coins must be exact when the arcana rank requires a number.
+Court card direction: Page, Knight, Queen, and King may stand outside the Ace-through-Ten plot; prioritize the court role's traditional meaning, personality, and earth element while keeping visual harmony with the suit.
+
+Primary request: Pentacles story 02 balance in breezy spring: the same auburn-haired merchant-gardener balances exactly two Pi-emblem gold coins between market boats and seed trays, connected by an infinity ribbon, learning early resource flow.
+Card identity for scene only: Two of Pentacles

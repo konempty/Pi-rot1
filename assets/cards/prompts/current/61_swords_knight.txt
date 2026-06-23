@@ -1,0 +1,20 @@
+Use case: illustration-story
+Asset type: 1024x1536 tarot inner illustration source art, later cropped into the fixed card art slot
+Style/medium: high-quality kawaii fantasy, polished anime-inspired tarot illustration, youthful premium mobile tarot service mood, soft cinematic lighting, clean readable silhouettes, rich detail
+Composition/framing: vertical inner illustration only, centered and readable, important faces and symbols away from the edges, generous safe margin
+Color palette: deep purple, lavender, warm gold, cream highlights, with suit-specific accent colors
+Materials/textures: polished gold coins and jewelry, soft cloth, glowing magic, painterly anime detail
+Text (verbatim): none. No English words, no Korean, no card titles, no rank labels, no numbers, no watermark, no signature. Decorative pi-emblem medallions are allowed.
+Pi emblem accuracy: Whenever a coin, pendant, medallion, charm, seal, or emblem shows a Pi-inspired mark, use the saved Pi Network icon reference. Make a clear lowercase pi emblem with a mostly straight horizontal top bar, two vertical stems connected to the bar, two small square dots above the bar, and a short squared upward hook at the far right end. The right hook should be a crisp raised corner, not a round inflated balloon or bulb. The mark must be angular and glyph-like, not a pig nose, not two round nostrils, not two rounded parallel rods, not the Roman numeral II, not the number 2, not a horseshoe, and not a generic omega shape.
+Global constraints: inner illustration only; no tarot card frame, no border, no nameplate, no UI, no poster layout. Preserve classic tarot symbolism while making it Pi-inspired through purple-gold coins, charms, seals, and square sparkles.
+Global avoid: full tarot card, card frame, border, nameplate, caption, typography, English text, Korean text, rank text, number text, watermark, logo wordmark, blurry emblem, pig-nose symbol, two round nostrils, Roman numeral II, number 2, malformed pi mark, bulbous balloon-shaped pi hook, rounded swollen pi right stroke, extra fingers, distorted face, low resolution
+
+Suit prompt: Swords
+Suit story continuity: One continuous Ace-through-Ten air-and-clarity story. A silver-haired sky-temple student awakens to truth, faces a difficult choice, learns that sharp truth can wound, rests and recovers, loses friends through hollow victory, leaves for calmer air, uses strategy, confronts self-imposed restriction and anxiety, then releases an old identity at pre-dawn. Court cards can stand outside this plot and should prioritize their traditional meanings.
+Protagonist continuity: For Ace through Ten, keep the Swords protagonist silver-haired with sky-temple visual language and a refined purple-white palette unless the arcana prompt explicitly says otherwise.
+Subtle alchemical element: Air element should feel natural and not excessive: wind ribbons, clouds, open sky, feathers, drifting petals, light blades, clear atmosphere, and motion lines woven into the scene.
+Suit visual language: sky temples, windows, feathers, wind, clear moonlight, violet-white blades, disciplined poses, and clarity under pressure. Countable swords must be exact and unmistakable when the arcana rank requires a number.
+Court card direction: Page, Knight, Queen, and King may stand outside the Ace-through-Ten plot; prioritize the court role's traditional meaning, personality, and air element while keeping visual harmony with the suit.
+
+Primary request: Swords court Knight archetype in brisk morning: a knight charges through wind on a swift cloud-steed, sword forward, Pi-emblem pennant snapping, decisive action and intellectual momentum.
+Card identity for scene only: Knight of Swords
